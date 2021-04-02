@@ -12,7 +12,8 @@ namespace GCUHealthcareViewsTest.Controllers
         public ActionResult Index()
         {
             return View();//landing page
-                          //TODO create a link to index(Home)>>personal data>>(related attribules )
+            
         }
+        //TODO create a link to index(Home)>>personal data>>(related attribules )
     }
 }
