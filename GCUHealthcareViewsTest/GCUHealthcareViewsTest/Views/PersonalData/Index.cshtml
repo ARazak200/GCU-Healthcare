@@ -34,22 +34,25 @@
             <p>
                 Some text
             </p>
-            <!-- <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p> -->
+            <a class="btn btn-default" @Html.ActionLink("View Calories", "Index", "Calories")></a>
         </div>
         <div class="col-md-4">
             <h2>Water Intake</h2>
             <p></p>
-            <!-- <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p> -->
+
+           <a class="btn btn-default"@Html.ActionLink("View Water Intake", "Index", "WaterIntake")></a>
         </div>
         <div class="col-md-4">
             <h2>Sleep</h2>
             <p></p>
+            <a class="btn btn-default" @Html.ActionLink("View sleep hours", "Index", "Sleep")></a>
             <!-- <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p> -->
         </div>
         <div class="col-md-4">
             <h2>Weight</h2>
             <p>Some text</p>
-    <!-- <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p> -->
+            <a class="btn btn-default" @Html.ActionLink("View Weight", "Index", "Weight")></a>
+            <!-- <p><a class="btn btn-default" href="#">Learn more &raquo;</a></p> -->
         </div>
     </div>
 </body>
