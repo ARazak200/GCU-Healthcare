@@ -254,6 +254,7 @@
     <Content Include="Views\Sleep\Index.cshtml" />
     <Content Include="Views\Sleep\Count.cshtml" />
     <Content Include="Views\WaterIntake\Index.cshtml" />
+    <Content Include="Views\Calories\CAdd.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -7,6 +7,41 @@
 <h1>Welcome to Calories</h1>
 <!--Calories index- Home page-->
 <!--CRUD-->
-<!--viewing-->
+
 <!--create-->
 <!--delete-->
+<div class="jumbotron">
+    <h1>GCU Healthcare- Calories</h1>
+    <p class="lead"></p>
+
+    <img src="~/Content/Images/GCULogo.ico" alt="GCU logo" width="200" height="200" />
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>count</h2>
+        <p>
+            <!--viewing-->
+            Some text
+        </p>
+        <!--take user to count.cshtml-->
+        <a class="btn btn-default" @Html.ActionLink("View Calories", "Index", "Calories")></a>
+
+    </div>
+    <div class="col-md-4">
+        <h2>add</h2>
+        <p></p>
+
+        <a class="btn btn-default" @Html.ActionLink("View Water Intake", "Index", "WaterIntake")></a>
+    </div>
+    <div class="col-md-4">
+        <h2>Delete</h2>
+        <p>only shown to admin</p>
+        <a class="btn btn-default" @Html.ActionLink("View sleep hours", "Index", "Sleep")></a>
+    </div>
+    <div class="col-md-4">
+        <h2>edit</h2>
+        <p>Some text</p>
+        <a class="btn btn-default" @Html.ActionLink("View Weight", "Index", "Weight")></a>
+    </div>
+</div>

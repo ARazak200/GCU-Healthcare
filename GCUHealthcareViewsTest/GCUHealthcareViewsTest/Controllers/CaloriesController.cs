@@ -13,5 +13,10 @@ namespace GCUHealthcareViewsTest.Controllers
         {
             return View();
         }
+
+        public ActionResult CAdd()
+        {
+            return View();
+        }
     }
 }
