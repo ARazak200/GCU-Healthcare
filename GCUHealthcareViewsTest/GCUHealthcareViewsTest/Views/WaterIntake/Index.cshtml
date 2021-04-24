@@ -5,8 +5,40 @@
     ViewBag.Title = "Index";
 }
 <!--Water intake-->
-<h1>Water Index index</h1>
 <!--CRUD-->
-<!--viewing-->
-<!--create-->
-<!--delete-->
+
+<div class="jumbotron">
+    <h1>Welcome to Water Intake</h1>
+    <p class="lead">Here you can view and manage your Water intake</p>
+    <img src="~/Content/Images/GCULogo.ico" alt="GCU logo" width="200" height="200" />
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Viewing</h2>
+        <p>
+            <!--viewing-->
+            Some text
+        </p>
+        <!--take user to count.cshtml-->
+
+        <span class="btn btn-default">@Html.ActionLink("DON'T CLICK HERE", "Count", "WaterIntake")</span>
+
+    </div>
+    <div class="col-md-4">
+        <h2>Add Calories</h2>
+        <p></p>
+        <span class="btn btn-default"> @Html.ActionLink("Click Here", "WIAdd", "WaterIntake")</span>
+
+    </div>
+    <div class="col-md-4">
+        <h2>Delete Calories</h2>
+        <p>only shown to admin</p>
+        <span class="btn btn-default">@Html.ActionLink("Click Here", "WIDelete", "WaterIntake")</span>
+    </div>
+    <div class="col-md-4">
+        <h2>Edit Calories</h2>
+        <p>only shown to admin</p>
+        <span class="btn btn-default">@Html.ActionLink("Click Here", "WIEdit", "WaterIntake")</span>
+    </div>
+</div>

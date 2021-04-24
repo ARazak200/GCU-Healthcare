@@ -9,7 +9,7 @@
 <!--CRUD functions-->
 <div class="jumbotron">
     <h1>Welcome to Calories</h1>
-    <p class="lead"></p>
+    <p class="lead">Here you can view and manage your Calories Burnt</p>
     <img src="~/Content/Images/GCULogo.ico" alt="GCU logo" width="200" height="200" />
 </div>
 
@@ -22,7 +22,7 @@
         </p>
         <!--take user to count.cshtml-->
         
-        <a class="btn btn-default" @Html.ActionLink("DON'T CLICK HERE", "Count", "Calories")></a>
+        <span class="btn btn-default">@Html.ActionLink("DON'T CLICK HERE", "Count", "Calories")</span>
 
     </div>
     <div class="col-md-4">
