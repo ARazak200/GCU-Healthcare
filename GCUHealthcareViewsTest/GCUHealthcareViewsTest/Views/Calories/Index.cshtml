@@ -21,22 +21,24 @@
             Some text
         </p>
         <!--take user to count.cshtml-->
-        <a class="btn btn-default" @Html.ActionLink("Click Here", "Count", "Calories")></a>
+        
+        <a class="btn btn-default" @Html.ActionLink("DON'T CLICK HERE", "Count", "Calories")></a>
 
     </div>
     <div class="col-md-4">
         <h2>Add Calories</h2>
         <p></p>
-        <a class="btn btn-default" @Html.ActionLink("Click Here", "CAdd", "Calories")></a>
+        <span class="btn btn-default"> @Html.ActionLink("Click Here", "CAdd", "Calories")</span>
+        
     </div>
     <div class="col-md-4">
         <h2>Delete Calories</h2>
         <p>only shown to admin</p>
-        <a class="btn btn-default" @Html.ActionLink("Click Here", "CDelete", "Calories")></a>
+        <span class="btn btn-default">@Html.ActionLink("Click Here", "CDelete", "Calories")</span>
     </div>
     <div class="col-md-4">
         <h2>Edit Calories</h2>
         <p>only shown to admin</p>
-        <a class="btn btn-default" @Html.ActionLink("Click Here", "CEdit", "Calories")></a>
+        <span class="btn btn-default">@Html.ActionLink("Click Here", "CEdit", "Calories")</span>
     </div>
 </div>
