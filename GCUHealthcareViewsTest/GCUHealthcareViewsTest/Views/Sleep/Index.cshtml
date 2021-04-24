@@ -7,4 +7,34 @@
 }
 <!--landing page of sleep-->
 <!--link to sleep related pages-->
-<h1>Sleep Index</h1>
+
+<div class="jumbotron">
+    <h1>Welcome to Sleep</h1>
+    <p class="lead">Here you can view and manage your Sleep</p>
+    <img src="~/Content/Images/GCULogo.ico" alt="GCU logo" width="200" height="200" />
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Viewing</h2>
+        <p>Some text</p>
+        <!--take user to count.cshtml-->
+        <span class="btn btn-default">@Html.ActionLink("DON'T CLICK HERE", "Count", "Sleep")</span>
+    </div>
+    <div class="col-md-4">
+        <h2>Add Sleep</h2>
+        <p></p>
+        <span class="btn btn-default"> @Html.ActionLink("Click Here", "SAdd", "Calories")</span>
+
+    </div>
+    <div class="col-md-4">
+        <h2>Delete Sleep</h2>
+        <p>only shown to admin</p>
+        <span class="btn btn-default">@Html.ActionLink("Click Here", "SDelete", "Calories")</span>
+    </div>
+    <div class="col-md-4">
+        <h2>Edit Sleep</h2>
+        <p>only shown to admin</p>
+        <span class="btn btn-default">@Html.ActionLink("Click Here", "SEdit", "Calories")</span>
+    </div>
+</div>

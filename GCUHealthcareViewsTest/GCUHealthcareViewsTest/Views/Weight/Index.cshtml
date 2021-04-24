@@ -5,9 +5,37 @@
 @{
     ViewBag.Title = "Index";
 }
-<h1>Weight Index</h1>
+
 <!--Viewing Weight-->
 <!--CRUD-->
-<!--viewing-->
-<!--create-->
-<!--delete-->
+
+<div class="jumbotron">
+    <h1>Welcome to Weight &#x2696;</h1>
+    <p class="lead">Here you can view and manage your Sleep</p>
+    <img src="~/Content/Images/GCULogo.ico" alt="GCU logo" width="200" height="200" />
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Viewing</h2>
+        <p>Some text</p>
+        <!--take user to count.cshtml-->
+        <span class="btn btn-default">@Html.ActionLink("DON'T CLICK HERE", "Count", "Weight")</span>
+    </div>
+    <div class="col-md-4">
+        <h2>Add Sleep</h2>
+        <p></p>
+        <span class="btn btn-default"> @Html.ActionLink("Click Here", "WAdd", "Weight")</span>
+
+    </div>
+    <div class="col-md-4">
+        <h2>Delete Sleep</h2>
+        <p>only shown to admin</p>
+        <span class="btn btn-default">@Html.ActionLink("Click Here", "WDelete", "Weight")</span>
+    </div>
+    <div class="col-md-4">
+        <h2>Edit Sleep</h2>
+        <p>only shown to admin</p>
+        <span class="btn btn-default">@Html.ActionLink("Click Here", "WEdit", "Weight")</span>
+    </div>
+</div>
