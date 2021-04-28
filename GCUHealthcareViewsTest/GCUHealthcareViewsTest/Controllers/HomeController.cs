@@ -22,7 +22,7 @@ namespace GCUHealthcareViewsTest.Controllers
         {
             return View();
         }
-        public ActionResult Healthcare()
+        public ActionResult MentalWelbeing()
         {
             return View();
         }

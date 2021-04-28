@@ -245,7 +245,7 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\HealthcareActivity\Index.cshtml" />
-    <Content Include="Views\Home\Healthcare.cshtml" />
+    <Content Include="Views\Home\MentalWelbeing.cshtml" />
     <Content Include="Views\PersonalData\Index.cshtml" />
     <Content Include="Views\Calories\Count.cshtml" />
     <Content Include="Views\Calories\Index.cshtml" />
@@ -260,6 +260,9 @@
     <Content Include="Views\Sleep\SAdd.cshtml" />
     <Content Include="Views\Sleep\SDelete.cshtml" />
     <Content Include="Views\Sleep\SEdit.cshtml" />
+    <Content Include="Views\WaterIntake\WIAdd.cshtml" />
+    <Content Include="Views\WaterIntake\WIDelete.cshtml" />
+    <Content Include="Views\WaterIntake\WIEdit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

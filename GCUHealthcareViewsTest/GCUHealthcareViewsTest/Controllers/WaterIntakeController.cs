@@ -13,5 +13,17 @@ namespace GCUHealthcareViewsTest.Controllers
         {
             return View();
         }
+        public ActionResult WIAdd()
+        {
+            return View();
+        }
+        public ActionResult WIDelete()
+        {
+            return View();
+        }
+        public ActionResult WIEdit()
+        {
+            return View();
+        }
     }
 }
