@@ -8,10 +8,39 @@
 
 <head>
     <link rel="stylesheet" href="~/Content/Styles.css" />
-
+    <meta name="viewport" content="width=device-width" />
 </head>
 
-<h1>@ViewBag.Title</h1>
-<p>Physical part here</p>
-<p>*Add links CRUD pages*</p>
+<div class="jumbotron">
+    <h1>@ViewBag.Title</h1>
+    <p class="lead"></p>
+    <p>note this the inital landing page for the Healtcare activity"</p>
 
+    <p>Physical part here</p>
+    <p>*Add links CRUD pages*</p>
+    <img src="~/Content/Images/GCULogo.ico" alt="GCU logo" width="200" height="200" />
+</div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2>View activity</h2>
+            <p></p>
+            <span class="btn btn-default"> @Html.ActionLink("Click Here", "HAView", "HealthcareActivity")</span>
+        </div>
+        <div class="col-md-4">
+            <h2>Add activity</h2>
+            <p>name, type, distance, time</p>
+
+            <span class="btn btn-default"> @Html.ActionLink("Click Here", "HAAdd", "HealthcareActivity")</span>
+        </div>
+        <div class="col-md-4">
+            <h2>Edit</h2>
+            <p></p>
+            <span class="btn btn-default"> @Html.ActionLink("Click Here", "HAEdit", "HealthcareActivity")</span>
+        </div>
+        <div class="col-md-4">
+            <h2>Delete</h2>
+            <p>Some text</p>
+            <span class="btn btn-default"> @Html.ActionLink("Click Here", "HADelete", "HealthcareActivity")</span>
+        </div>
+    </div>

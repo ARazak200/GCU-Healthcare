@@ -263,6 +263,10 @@
     <Content Include="Views\WaterIntake\WIAdd.cshtml" />
     <Content Include="Views\WaterIntake\WIDelete.cshtml" />
     <Content Include="Views\WaterIntake\WIEdit.cshtml" />
+    <Content Include="Views\HealthcareActivity\HAView.cshtml" />
+    <Content Include="Views\HealthcareActivity\HAAdd.cshtml" />
+    <Content Include="Views\HealthcareActivity\HAEdit.cshtml" />
+    <Content Include="Views\HealthcareActivity\HADelete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
