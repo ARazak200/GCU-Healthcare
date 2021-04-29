@@ -269,6 +269,9 @@
     <Content Include="Views\HealthcareActivity\HAAdd.cshtml" />
     <Content Include="Views\HealthcareActivity\HAEdit.cshtml" />
     <Content Include="Views\HealthcareActivity\HADelete.cshtml" />
+    <Content Include="Views\Weight\WAdd.cshtml" />
+    <Content Include="Views\Weight\WDelete.cshtml" />
+    <Content Include="Views\Weight\WEdit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
