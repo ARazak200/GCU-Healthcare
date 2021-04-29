@@ -191,6 +191,8 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Images\GCULogo.ico" />
+    <Content Include="Content\Images\healthcare-activity.png" />
+    <Content Include="Content\Images\mental-health.jpg" />
     <Content Include="Content\Styles.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
