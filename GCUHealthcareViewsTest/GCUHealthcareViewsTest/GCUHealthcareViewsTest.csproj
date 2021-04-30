@@ -258,20 +258,16 @@
     <Content Include="Views\WaterIntake\Index.cshtml" />
     <Content Include="Views\Calories\CAdd.cshtml" />
     <Content Include="Views\Calories\CDelete.cshtml" />
-    <Content Include="Views\Calories\CEdit.cshtml" />
     <Content Include="Views\Sleep\SAdd.cshtml" />
     <Content Include="Views\Sleep\SDelete.cshtml" />
-    <Content Include="Views\Sleep\SEdit.cshtml" />
     <Content Include="Views\WaterIntake\WIAdd.cshtml" />
     <Content Include="Views\WaterIntake\WIDelete.cshtml" />
-    <Content Include="Views\WaterIntake\WIEdit.cshtml" />
     <Content Include="Views\HealthcareActivity\HAView.cshtml" />
     <Content Include="Views\HealthcareActivity\HAAdd.cshtml" />
     <Content Include="Views\HealthcareActivity\HAEdit.cshtml" />
     <Content Include="Views\HealthcareActivity\HADelete.cshtml" />
     <Content Include="Views\Weight\WAdd.cshtml" />
     <Content Include="Views\Weight\WDelete.cshtml" />
-    <Content Include="Views\Weight\WEdit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
