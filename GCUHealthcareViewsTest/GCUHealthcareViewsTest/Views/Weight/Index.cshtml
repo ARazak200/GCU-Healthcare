@@ -3,38 +3,37 @@
 }
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Weight Homepage";
 }
 
 <!--Viewing Weight-->
-<!--CRUD-->
 
 <div class="jumbotron">
-    <h1>Welcome to Weight &#x2696;</h1>
-    <p class="lead">Here you can view and manage your Sleep</p>
-    <img src="~/Content/Images/GCULogo.ico" alt="GCU logo" width="200" height="200" />
+    <h1>Welcome to Weight-Personal Data</h1>
+    <p class="lead">Here you can view and manage your Weight</p>
+    <span style='font-size:100px;'>&#x2696;</span>
 </div>
 
 <div class="row">
     <div class="col-md-4">
-        <h2>Viewing</h2>
+        <h2>Viewing Weight</h2>
         <p>Some text</p>
         <!--take user to count.cshtml-->
         <span class="btn btn-default">@Html.ActionLink("DON'T CLICK HERE", "Count", "Weight")</span>
     </div>
     <div class="col-md-4">
-        <h2>Add Sleep</h2>
+        <h2>Add Weight entry</h2>
         <p></p>
         <span class="btn btn-default"> @Html.ActionLink("Click Here", "WAdd", "Weight")</span>
 
     </div>
     <div class="col-md-4">
-        <h2>Delete Sleep</h2>
+        <h2>Delete Weight entry</h2>
         <p>only shown to admin</p>
         <span class="btn btn-default">@Html.ActionLink("Click Here", "WDelete", "Weight")</span>
     </div>
     <div class="col-md-4">
-        <h2>Edit Sleep</h2>
+        <h2>Edit Weight entry</h2>
         <p>only shown to admin</p>
         <span class="btn btn-default">@Html.ActionLink("Click Here", "WEdit", "Weight")</span>
     </div>

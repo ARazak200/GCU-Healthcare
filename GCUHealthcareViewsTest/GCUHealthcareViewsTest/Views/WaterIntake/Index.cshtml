@@ -2,15 +2,15 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Water Intake Homepage";
 }
 <!--Water intake-->
 <!--CRUD-->
 
 <div class="jumbotron">
-    <h1>Welcome to Water Intake &#128688;</h1>
+    <h1>Welcome to Water Intake-Personal Data</h1>
     <p class="lead">Here you can view and manage your Water intake</p>
-    <img src="~/Content/Images/GCULogo.ico" alt="GCU logo" width="200" height="200"/>
+    <span style='font-size:100px;'>&#128688;</span>
 </div>
 
 <div class="row">
@@ -26,18 +26,18 @@
 
     </div>
     <div class="col-md-4">
-        <h2>Add Weight</h2>
+        <h2>Add Water Intake </h2>
         <p></p>
         <span class="btn btn-default"> @Html.ActionLink("Click Here", "WIAdd", "WaterIntake")</span>
 
     </div>
     <div class="col-md-4">
-        <h2>Delete Weight</h2>
+        <h2>Delete Water Intake</h2>
         <p>only shown to admin</p>
         <span class="btn btn-default">@Html.ActionLink("Click Here", "WIDelete", "WaterIntake")</span>
     </div>
     <div class="col-md-4">
-        <h2>Edit Weight</h2>
+        <h2>Edit Water Intake</h2>
         <p>only shown to admin</p>
         <span class="btn btn-default">@Html.ActionLink("Click Here", "WIEdit", "WaterIntake")</span>
     </div>
